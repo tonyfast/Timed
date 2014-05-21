@@ -2,11 +2,10 @@
 layout: post
 ---
 
-{{ site.github.public_repositories }}
 
 
 
-{% for vars in site.github %}
+{% for vars in site.github.public_repositories %}
 ## {{ forloop.index }}
     {{vars}}
 {% endfor %}
