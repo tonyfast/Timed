@@ -5,6 +5,6 @@ layout: post
 {% for vars in site.github.public_repositories %}
 ## {{ forloop.index }}
 {% if vars.fork %}
-    {{vars.url}}
+   {% include {{vars.url}} %}
 {% endif %}
 {% endfor %}
