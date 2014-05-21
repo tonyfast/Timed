@@ -4,7 +4,7 @@ layout: post
 
 {% for vars in site.github.public_repositories %}
 ## {{ forloop.index }}
-    {{vars}}
+    {{vars.fork}}
 {% endfor %}
 
 
