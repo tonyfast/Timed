@@ -2,7 +2,7 @@
 layout: post
 ---
 
-{{ site.github public_repositories }}
+{{ site.github.public_repositories }}
 
 
 
