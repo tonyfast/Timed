@@ -6,4 +6,5 @@ layout: post
 ## {{ forloop.index }}
 {% if vars.fork %}
     {{vars.url}}
+{% endif %}
 {% endfor %}
