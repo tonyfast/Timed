@@ -2,4 +2,8 @@
 layout: post
 ---
 
-{{site.github}}
+
+{% for vars in site.github %}
+## {{ forloop.index }}
+    {{vars}}
+{% endfor %}
